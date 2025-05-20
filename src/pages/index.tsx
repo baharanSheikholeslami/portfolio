@@ -1,3 +1,5 @@
+import Header from "@/modules/Header";
+import HomePageModule from "@/modules/HomePageModule";
 import { Geist, Geist_Mono } from "next/font/google";
 
 const geistSans = Geist({
@@ -11,5 +13,10 @@ const geistMono = Geist_Mono({
 });
 
 export default function Home() {
-  return <div>hi</div>;
+  return (
+    <>
+      <Header />
+      <HomePageModule />
+    </>
+  );
 }
