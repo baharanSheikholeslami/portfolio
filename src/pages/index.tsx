@@ -11,5 +11,5 @@ const geistMono = Geist_Mono({
 });
 
 export default function Home() {
-  return <div className="">hi</div>;
+  return <div>hi</div>;
 }
